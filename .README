@@ -1,0 +1,8 @@
+
+
+
+instalare de dependinte 
+go mod tidy 
+
+rularea aplicatiei 
+go run main.go

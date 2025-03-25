@@ -1,0 +1,32 @@
+# .gitignore
+
+# Binaries pentru programe și dependențe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Articole build
+*.out
+*.test
+
+# Directoare de output
+bin/
+obj/
+
+# Directoare ale dependențelor (dacă le folosești)
+vendor/
+
+# Cache-ul build-ului Go
+/go-build
+
+# Fișiere specifice IDE/editorului
+.vscode/
+.idea/
+
+# Fișiere de log
+*.log
+
+# Fișiere de mediu
+.env
