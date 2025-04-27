@@ -1,0 +1,21 @@
+# Go-Mongo-Auth
+
+### Descriere
+Go-Mongo-Auth este un API RESTful scris în Go pentru demonstrarea mecanismelor de autentificare și autorizare folosind JSON Web Tokens (JWT) și MongoDB. Proiectul face parte din tema de la cursul „Securitatea Sistemelor de Calcul”.
+
+### Funcționalități cheie
+- Înregistrare utilizator (`POST /register`)  
+- Autentificare și generare token JWT (`POST /login`)  
+- Rută protejată prin middleware JWT (`GET /protected`)  
+
+### Tehnologii
+- Go (>= 1.16)  
+- [Gin](https://github.com/gin-gonic/gin) – web framework  
+- [MongoDB Go Driver](https://github.com/mongodb/mongo-go-driver)  
+- [JWT](https://github.com/golang-jwt/jwt/v4)  
+- [godotenv](https://github.com/joho/godotenv) – încărcare variabile de mediu  
+
+### Precondiții
+- Go instalat (verificați cu `go version`)  
+- Acces la o instanță MongoDB (Atlas sau local)  
+- Fișier `.env` în rădăcina proiectului cu variabilele
